@@ -207,7 +207,7 @@ bool CS_FASTCALL H::CreateMove(CCSGOInput* pInput, int nSlot, bool bActive)
 	if (!I::Engine->IsConnected() || !I::Engine->IsInGame())
 		return bResult;
 
-	CUserCmd* pCmd = SDK::Cmd = pInput->GetUserCmd();
+	CUserCmd* pCmd = SDK::Cmd = CUserCmd::Get();
 	if (pCmd == nullptr)
 		return bResult;
 

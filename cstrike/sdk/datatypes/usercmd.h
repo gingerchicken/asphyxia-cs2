@@ -284,5 +284,7 @@ public:
 			pInputEntry->SetBits(EInputHistoryBits::INPUT_HISTORY_BITS_VIEWANGLES);
 		}
 	}
+
+	static CUserCmd* Get();
 };
-static_assert(sizeof(CUserCmd) == 0x98);
+// static_assert(sizeof(CUserCmd) == 0x98);

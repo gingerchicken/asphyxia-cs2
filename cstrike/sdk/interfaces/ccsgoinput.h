@@ -63,11 +63,6 @@ public:
 	int32_t nAttackStartHistoryIndex2;
 	int32_t nAttackStartHistoryIndex3;
 
-	CUserCmd* GetUserCmd()
-	{
-		return &arrCommands[nSequenceNumber % MULTIPLAYER_BACKUP];
-	}
-
 	void SetViewAngle(QAngle_t& angView)
 	{
 		// @ida: this got called before GetMatricesForView

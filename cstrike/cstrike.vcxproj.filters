@@ -442,5 +442,8 @@
     <ClCompile Include="features\legitbot.cpp">
       <Filter>features</Filter>
     </ClCompile>
+    <ClCompile Include="sdk\datatypes\usercmd.cpp">
+      <Filter>sdk\datatypes</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
